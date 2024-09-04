@@ -27,6 +27,9 @@ public class CommandLineOptions {
         CommandLineParser parser = new DefaultParser();
         CommandLine cmd;
         try{
+            if(args.length == 0){
+                throw new RuntimeException("Нужно ввести аргументы для работы утилиты");
+            }
             cmd = parser.parse(options,args);
             if(cmd.hasOption("a")){
                 append = true;
