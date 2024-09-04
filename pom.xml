@@ -32,7 +32,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ru.larentina.micro.demo.Main</mainClass> <!-- Замените на ваш главный класс -->
+                            <mainClass>ru.larentina.micro.demo.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
